@@ -1,0 +1,6 @@
+#### MsgID=  3, KeyID=  1
+# Instruction: Opcode=Load Key
+INS = 40000000
+# Info :                      Key, EOI=1 EOT=1, Last=1, Length=16 bytes
+HDR = C7000010
+DAT = B970673790D6189480658A26F1153990

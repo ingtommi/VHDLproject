@@ -1,0 +1,15 @@
+#### Authenticated Encryption
+#### MsgID=  3, KeyID=  1 Ad Size =   24, Pt Size =   23
+# Instruction: Opcode=Activate Key
+INS = 70000000
+# Instruction: Opcode=Authenticated Encryption
+INS = 20000000
+# Info :                     Npub, EOI=0 EOT=1, Last=0, Length=16 bytes
+HDR = D2000010
+DAT = 80DD699040345DF48EF8551F6EAFF74B
+# Info :          Associated Data, EOI=0 EOT=1, Last=0, Length=24 bytes
+HDR = 12000018
+DAT = BF7977FA96AE8D19162305B8E9390A0D426547A3F2D74325
+# Info :                Plaintext, EOI=1 EOT=1, Last=1, Length=23 bytes
+HDR = 47000017
+DAT = 712A8602CA9B115BDFFF23E20DB024BE60E408368DC7E400
