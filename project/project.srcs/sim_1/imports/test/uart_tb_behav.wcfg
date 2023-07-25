@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="401.000001 us"></ZoomEndTime>
+      <Cursor1Time time="401.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/top_tb/uut1/baud_pulse" type="logic">
+      <obj_property name="ElementShortName">baud_pulse</obj_property>
+      <obj_property name="ObjectShortName">baud_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rx_key" type="array">
+      <obj_property name="ElementShortName">rx_key[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_key[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut2/key" type="array">
+      <obj_property name="ElementShortName">key[7:0]</obj_property>
+      <obj_property name="ObjectShortName">key[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/msg_in" type="array">
+      <obj_property name="ElementShortName">msg_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">msg_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut1/rx_done" type="logic">
+      <obj_property name="ElementShortName">rx_done</obj_property>
+      <obj_property name="ObjectShortName">rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut2/crypto_ready" type="logic">
+      <obj_property name="ElementShortName">crypto_ready</obj_property>
+      <obj_property name="ObjectShortName">crypto_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/msg_out" type="array">
+      <obj_property name="ElementShortName">msg_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">msg_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut2/crypto_done" type="logic">
+      <obj_property name="ElementShortName">crypto_done</obj_property>
+      <obj_property name="ObjectShortName">crypto_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut1/tx_ena" type="logic">
+      <obj_property name="ElementShortName">tx_ena</obj_property>
+      <obj_property name="ObjectShortName">tx_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+</wave_config>
